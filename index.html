@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monika Spices</title>
+  <meta name="description" content="Monika Spices, Vapi. Masala powders, whole spices, and tea — dust, CTC, OF and jaggery masala tea, packed fresh.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=29">
+</head>
+<body>
+  <header>
+    <div class="logo">Monika <span>Spices</span></div>
+    <form class="search-box" id="searchForm" role="search">
+      <input type="search" id="searchInput" placeholder="Search masala, raw, tea..." aria-label="Search products">
+      <button type="submit" aria-label="Search">Search</button>
+    </form>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#masala">Masala</a>
+      <a href="#raw">Raw</a>
+      <a href="#tea">Tea</a>
+      <a href="#quality">Quality</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn" type="button" aria-label="Open cart">
+      Cart
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <p class="search-empty" id="searchEmpty">No matching masala, raw spice or tea. Try another name.</p>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Pure Taste. Premium Quality.</h1>
+      <p>Authentic colour, aroma and flavour for every dish.</p>
+      <div class="badges">
+        <div class="badge">100% Pure</div>
+        <div class="badge">Premium Quality</div>
+        <div class="badge">Freshly Packed</div>
+      </div>
+      <a class="btn" href="#masala">Masala</a>
+      <a class="btn btn-outline" href="#raw">Raw</a>
+      <a class="btn btn-outline" href="#tea">Tea</a>
+    </div>
+  </section>
+
+  <section class="catalog" id="masala">
+    <h2 class="title">Masala</h2>
+    <p class="section-intro">Pure powders, packed fresh. Add 100 g, 250 g, 500 g or 1 kg to cart.</p>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="images/kashmiri.jpg?v=19" alt="Kashmiri chilli powder in a black carved bowl with whole dried red chillies">
+        <div class="product-body">
+          <h3>Kashmiri Powder</h3>
+          <p class="kind">Red Chilli Powder</p>
+          <p class="blurb">Bright colour with mild heat for gravies and tandoori.</p>
+          <div class="price">₹800 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/kashmiri-resham-patti.jpg?v=18" alt="Kashmiri and Resham Patti powder with five dried red chillies">
+        <div class="product-body">
+          <h3>Kashmiri &amp; Resham Patti Powder</h3>
+          <p class="kind">Red Chilli Powder</p>
+          <p class="blurb">Rich colour • Authentic flavour • Premium selection</p>
+          <div class="price">₹500 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/teja-tikha.jpg?v=18" alt="Teja Tikha powder with five dried red chillies">
+        <div class="product-body">
+          <h3>Teja Tikha Powder</h3>
+          <p class="kind">Hot Red Chilli Powder</p>
+          <p class="blurb">Sharp heat and deep red colour for spicy masala.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/coriander.jpg?v=18" alt="Coriander powder in a black bowl">
+        <div class="product-body">
+          <h3>Coriander Powder</h3>
+          <p class="kind">Dhania Powder</p>
+          <p class="blurb">Fresh, citrusy dhania for sabzi, dal and marinades.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/coriander-cumin.jpg?v=19" alt="Coriander cumin mixed masala in a black bowl">
+        <div class="product-body">
+          <h3>Coriander Cumin Powder</h3>
+          <p class="kind">Dhania Jeera Powder</p>
+          <p class="blurb">A balanced everyday mix of coriander and cumin.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/cumin.jpg?v=18" alt="Cumin powder in a black bowl">
+        <div class="product-body">
+          <h3>Cumin Powder</h3>
+          <p class="kind">Jeera Powder</p>
+          <p class="blurb">Warm, nutty jeera powder for tadka and masala.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/turmeric.jpg?v=18" alt="Haldi powder in a black bowl with five dried turmeric fingers">
+        <div class="product-body">
+          <h3>Turmeric Powder</h3>
+          <p class="kind">Haldi Powder</p>
+          <p class="blurb">Golden colour and earthy aroma for everyday cooking.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/garam-masala.jpg?v=20" alt="Garam masala powder in a black bowl with whole spices">
+        <div class="product-body">
+          <h3>Garam Masala Powder</h3>
+          <p class="kind">Blend</p>
+          <p class="blurb">Warm finishing masala for dal, gravy and rice.</p>
+          <div class="price">₹500 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/hing.jpg?v=18" alt="Hing powder in a black bowl with raw hing resin beside it">
+        <div class="product-body">
+          <h3>Hing Powder</h3>
+          <p class="kind">Asafoetida</p>
+          <p class="blurb">Strong, savoury hing for dal, kadhi and tadka.</p>
+          <div class="price">₹1600 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="catalog raw" id="raw">
+    <h2 class="title">Raw</h2>
+    <p class="section-intro">Whole spices, packed fresh. Add 100 g, 250 g, 500 g or 1 kg to cart.</p>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="images/rai.jpg?v=19" alt="Rai mustard seeds in a black bowl">
+        <div class="product-body">
+          <h3>Rai</h3>
+          <p class="kind">Mustard Seeds</p>
+          <p class="blurb">Classic rai for Gujarati tadka, pickle and kadhi.</p>
+          <div class="price">₹200 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/methi.jpg?v=19" alt="Methi fenugreek seeds in a black bowl">
+        <div class="product-body">
+          <h3>Methi</h3>
+          <p class="kind">Fenugreek Seeds</p>
+          <p class="blurb">Bitter-sweet methi dana for pickle, sabzi and tea.</p>
+          <div class="price">₹200 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/jeera.jpg?v=20" alt="Whole jeera cumin seeds in a black bowl">
+        <div class="product-body">
+          <h3>Jeera</h3>
+          <p class="kind">Cumin Seeds</p>
+          <p class="blurb">Whole cumin for tadka, jeera rice and raita.</p>
+          <div class="price">₹300 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/saunf.jpg?v=19" alt="Saunf fennel seeds in a black bowl">
+        <div class="product-body">
+          <h3>Saunf</h3>
+          <p class="kind">Fennel Seeds</p>
+          <p class="blurb">Sweet fennel for mukhwas, chai and light tadka.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/ajwain.jpg?v=1" alt="Ajwain carom seeds in a black bowl">
+        <div class="product-body">
+          <h3>Ajwain</h3>
+          <p class="kind">Carom Seeds</p>
+          <p class="blurb">Sharp, thyme-like ajwain for tadka, paratha and digestive tea.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/cloves.jpg?v=19" alt="Whole cloves in a black bowl">
+        <div class="product-body">
+          <h3>Cloves</h3>
+          <p class="kind">Laung</p>
+          <p class="blurb">Strong, sweet-hot laung for garam masala and rice.</p>
+          <div class="price">₹2000 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/black-pepper.jpg?v=19" alt="Whole black peppercorns in a black bowl">
+        <div class="product-body">
+          <h3>Black Pepper</h3>
+          <p class="kind">Kali Mirch</p>
+          <p class="blurb">Whole peppercorns for heat, chai and grinding fresh.</p>
+          <div class="price">₹2000 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/star-anise.jpg?v=19" alt="Star anise star phool in a black bowl">
+        <div class="product-body">
+          <h3>Star Anise</h3>
+          <p class="kind">Star Phool / Badiyan</p>
+          <p class="blurb">Star-shaped star phool for biryani, garam masala and broth.</p>
+          <div class="price">₹2000 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="catalog tea" id="tea">
+    <h2 class="title">Tea</h2>
+    <p class="section-intro">Dust, CTC and masala tea, packed fresh. Add 100 g, 250 g, 500 g or 1 kg to cart.</p>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="images/tea-dust-mix.jpg?v=18" alt="Dust tea PD dust and BP mix in a black bowl">
+        <div class="product-body">
+          <h3>Dust Tea</h3>
+          <p class="kind">PD (Pekoe Dust), Dust, BP (Broken Pekoe) mix blend</p>
+          <p class="blurb">A mixed dust blend with broken pekoe for a stronger cup.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-dust-regular.jpg?v=18" alt="Dust tea regular PD and dust mix in a black bowl">
+        <div class="product-body">
+          <h3>Dust Tea Regular</h3>
+          <p class="kind">PD (Pekoe Dust) and Dust mix blend</p>
+          <p class="blurb">Everyday dust chai — pekoe dust mixed with tea dust.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-dust-premium.jpg?v=18" alt="Dust tea premium PD grade in a black bowl">
+        <div class="product-body">
+          <h3>Dust Tea Premium</h3>
+          <p class="kind">PD (Pekoe Dust) grade blend</p>
+          <p class="blurb">Clean pekoe dust for a brighter, premium cup.</p>
+          <div class="price">₹500 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-ctc-bp.jpg?v=18" alt="CTC tea Broken Pekoe granules in a black bowl">
+        <div class="product-body">
+          <h3>CTC Tea</h3>
+          <p class="kind">CTC (Crush, Tear, Curl) · BP (Broken Pekoe)</p>
+          <p class="blurb">Classic CTC broken pekoe granules for regular chai.</p>
+          <div class="price">₹350 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-ctc-leaf.jpg?v=18" alt="CTC leaf tea regular BP in a black bowl">
+        <div class="product-body">
+          <h3>CTC Leaf Tea Regular</h3>
+          <p class="kind">CTC (Crush, Tear, Curl) · BP (Broken Pekoe)</p>
+          <p class="blurb">CTC with more broken leaf — regular broken pekoe.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-of.jpg?v=18" alt="Orange fannings OF tea in a black bowl">
+        <div class="product-body">
+          <h3>OF Tea</h3>
+          <p class="kind">OF (Orange Fannings)</p>
+          <p class="blurb">Fine fannings for a quick, strong colour in the cup.</p>
+          <div class="price">₹400 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-ctc-premium.jpg?v=18" alt="CTC premium tea BOPS in a black bowl">
+        <div class="product-body">
+          <h3>CTC Premium Tea</h3>
+          <p class="kind">CTC (Crush, Tear, Curl) · BOPS (Broken Orange Pekoe Small)</p>
+          <p class="blurb">Smaller, even CTC granules — broken orange pekoe small.</p>
+          <div class="price">₹500 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="images/tea-jaggery-masala.jpg?v=18" alt="Jaggery masala tea mixed with jaggery powder, nutmeg, cardamom, clove and raw ginger">
+        <div class="product-body">
+          <h3>Jaggery Masala Tea</h3>
+          <p class="kind">Gud powder masala chai</p>
+          <p class="blurb">Tea mixed with jaggery powder, plus jaifal, elaichi, clove and raw ginger.</p>
+          <div class="price">₹500 / kg</div>
+          <button type="button" class="btn add-cart">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="quality">
+    <h2 class="title">Why Monika Spices?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Premium Masala</h3>
+        <p>Powders, whole spices and tea selected for colour, aroma and flavour.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">✨</div>
+        <h3>100% Pure</h3>
+        <p>Made for customers who value authentic taste and quality.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📦</div>
+        <h3>Freshly Packed</h3>
+        <p>Carefully packed to help preserve freshness, aroma and taste.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title">Contact Monika Spices</h2>
+    <p><b>Phone:</b> <a href="tel:8390143708">8390143708</a></p>
+    <p><b>Address:</b> Custom Road, Chala, Vapi – 396191</p>
+    <p><b>FSSAI Lic. No.:</b> <span class="legal-value" data-fssai></span></p>
+    <p><b>GSTIN:</b> <span class="legal-value" data-gstin></span></p>
+    <p><b>Shipping:</b> India — ₹50/kg below ₹1,000, free across India on ₹1,000+. Outside India — ₹1,000/kg.</p>
+    <a class="btn btn-gold" href="tel:8390143708">Call Now</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Monika Spices. All Rights Reserved.</p>
+    <p class="legal-ids">FSSAI Lic. No.: <span class="legal-value" data-fssai></span> · GSTIN: <span class="legal-value" data-gstin></span></p>
+  </footer>
+
+  <div class="pack-overlay" id="packOverlay" hidden>
+    <div class="pack-sheet" role="dialog" aria-modal="true" aria-labelledby="packTitle">
+      <div class="pack-head">
+        <h2 id="packTitle">Choose pack size</h2>
+        <button type="button" class="cart-close" id="packClose" aria-label="Close pack sizes">×</button>
+      </div>
+      <p class="pack-product" id="packProduct"></p>
+      <p class="pack-hint">Prices follow the per-kilo rate.</p>
+      <div class="pack-options" id="packOptions"></div>
+    </div>
+  </div>
+
+  <div class="cart-overlay" id="cartOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-labelledby="cartTitle">
+    <div class="cart-head">
+      <h2 id="cartTitle">Your cart</h2>
+      <button type="button" class="cart-close" id="cartClose" aria-label="Close cart">×</button>
+    </div>
+    <p class="cart-empty" id="cartEmpty">Your cart is empty. Add masala, raw spice or tea from the catalog.</p>
+    <div class="cart-lines" id="cartLines"></div>
+    <div class="cart-foot" id="cartFoot" hidden>
+      <div class="cart-break" id="cartSubtotalRow">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">₹0</span>
+      </div>
+      <div class="cart-break cart-save" id="cartCouponRow" hidden>
+        <span id="cartCouponLabel">Coupon</span>
+        <span id="cartCouponOff">−₹0</span>
+      </div>
+      <div class="cart-break" id="cartShipRow">
+        <span id="cartShipLabel">Shipping</span>
+        <span id="cartShipOff">₹0</span>
+      </div>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">₹0</strong>
+      </div>
+      <p class="cart-ship-note" id="cartShipNote"></p>
+      <button type="button" class="btn btn-gold" id="cartPay">Pay now</button>
+    </div>
+  </aside>
+
+  <div class="pay-overlay" id="payOverlay" hidden>
+    <div class="pay-sheet" role="dialog" aria-modal="true" aria-labelledby="payTitle">
+      <div class="pay-head">
+        <h2 id="payTitle">Delivery details</h2>
+        <button type="button" class="cart-close" id="payClose" aria-label="Close checkout">×</button>
+      </div>
+
+      <form class="pay-form" id="detailsForm">
+        <p class="pay-amount">Order total <strong id="detailsAmount">₹0</strong></p>
+        <p class="pay-break is-save" id="detailsCouponRow" hidden>
+          <span id="detailsCouponLabel">Coupon</span>
+          <strong id="detailsCouponOff">−₹0</strong>
+        </p>
+        <p class="pay-break" id="detailsShipRow">
+          <span id="detailsShipLabel">Shipping</span>
+          <strong id="detailsShipOff">₹0</strong>
+        </p>
+        <p class="pay-amount pay-payable">Amount payable <strong id="detailsPayable">₹0</strong></p>
+        <p class="pay-note" id="detailsShipNote">India: ₹50/kg below ₹1,000. Free shipping across India on ₹1,000+. Outside India: ₹1,000/kg.</p>
+
+        <label>
+          Full name
+          <input id="payName" name="name" autocomplete="name" required placeholder="Full name">
+        </label>
+
+        <label>
+          Building name and flat no
+          <input id="payBuilding" name="building" autocomplete="address-line1" required placeholder="Building name and flat no">
+        </label>
+        <label>
+          Street / society name
+          <input id="payStreet" name="street" autocomplete="address-line2" required placeholder="Street or society name">
+        </label>
+        <label>
+          Road name
+          <input id="payRoad" name="road" required placeholder="Road name">
+        </label>
+        <label>
+          ZIP code
+          <input id="payZip" name="zip" inputmode="numeric" maxlength="10" autocomplete="postal-code" required placeholder="ZIP / PIN code">
+        </label>
+        <div class="pay-row pay-row-3">
+          <label>
+            City
+            <input id="payCity" name="city" autocomplete="address-level2" required placeholder="City">
+          </label>
+          <label>
+            State
+            <input id="payState" name="state" autocomplete="address-level1" required placeholder="State">
+          </label>
+          <label>
+            Country
+            <input id="payCountry" name="country" autocomplete="country-name" required placeholder="Country" value="India">
+          </label>
+        </div>
+
+        <div class="coupon-box">
+          <p class="coupon-heading">Apply coupon</p>
+          <p class="pay-hint">Optional. Try MONIKA10 for 10% off.</p>
+          <div class="coupon-row" id="couponEntry">
+            <input id="payCoupon" name="coupon" maxlength="24" placeholder="Coupon code" autocomplete="off" aria-label="Coupon code">
+            <button type="button" class="btn coupon-apply" id="couponApply">Apply</button>
+          </div>
+          <div class="coupon-applied" id="couponApplied" hidden>
+            <span id="couponAppliedText"></span>
+            <button type="button" class="remove-btn" id="couponRemove">Remove</button>
+          </div>
+          <p class="coupon-status" id="couponStatus" hidden></p>
+
+          <div class="gst-block">
+            <label class="gst-check">
+              <input type="checkbox" id="payCommercial" name="commercial">
+              Commercial order — I need GST
+            </label>
+            <p class="pay-hint">Tick this for a GST invoice so you can claim GST.</p>
+            <div id="gstNumberWrap" hidden>
+              <label>
+                GST number
+                <input id="payGst" name="gstin" maxlength="15" placeholder="15-character GSTIN" autocomplete="off" spellcheck="false" aria-label="GST number">
+              </label>
+              <p class="pay-hint">Enter the GSTIN. It is saved on the order so you can claim GST.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="pay-error" id="detailsError" hidden></p>
+        <button type="submit" class="btn btn-gold" id="detailsContinue">Continue to payment</button>
+      </form>
+
+      <form class="pay-form" id="payForm" hidden>
+        <p class="pay-amount">Amount payable <strong id="payAmount">₹0</strong></p>
+        <p class="pay-break is-save" id="payCouponRow" hidden>
+          <span id="payCouponLabel">Coupon</span>
+          <strong id="payCouponOff">−₹0</strong>
+        </p>
+        <p class="pay-break" id="payShipRow">
+          <span id="payShipLabel">Shipping</span>
+          <strong id="payShipOff">₹0</strong>
+        </p>
+        <p class="pay-gst" id="payGstLine" hidden>GSTIN for claim <strong id="payGstShow"></strong></p>
+        <p class="pay-note" id="payNote"></p>
+        <button type="button" class="back-link" id="payBack">← Back to delivery details</button>
+
+        <p class="pay-methods-label">Pay using</p>
+        <div class="pay-tabs" role="tablist">
+          <button type="button" class="pay-tab is-active" data-method="upi">UPI</button>
+          <button type="button" class="pay-tab" data-method="qr">Scan QR</button>
+          <button type="button" class="pay-tab" data-method="card">Debit / Credit card</button>
+        </div>
+
+        <div class="pay-panel" id="panel-upi">
+          <label>
+            UPI ID
+            <input id="payUpi" name="upi" inputmode="email" placeholder="name@okaxis, name@ybl, name@paytm" autocomplete="off">
+          </label>
+          <p class="pay-hint">Google Pay, PhonePe, Paytm, BHIM and other UPI apps.</p>
+        </div>
+
+        <div class="pay-panel" id="panel-qr" hidden>
+          <div class="pay-qr-wrap">
+            <div id="payQr"></div>
+          </div>
+          <p class="pay-hint">Open any UPI app and scan this code to pay.</p>
+        </div>
+
+        <div class="pay-panel" id="panel-card" hidden>
+          <p class="card-brands">Visa · Mastercard · RuPay · Amex</p>
+          <label>
+            Card number
+            <input id="payCard" name="card" inputmode="numeric" maxlength="19" placeholder="XXXX XXXX XXXX XXXX" autocomplete="cc-number">
+          </label>
+          <div class="pay-row">
+            <label>
+              Expiry
+              <input id="payExpiry" name="expiry" inputmode="numeric" maxlength="5" placeholder="MM/YY" autocomplete="cc-exp">
+            </label>
+            <label>
+              CVV
+              <input id="payCvv" name="cvv" inputmode="numeric" maxlength="4" placeholder="CVV" autocomplete="cc-csc">
+            </label>
+          </div>
+          <label>
+            Name on card
+            <input id="payCardName" name="cardName" placeholder="Name printed on card" autocomplete="cc-name">
+          </label>
+        </div>
+
+        <p class="pay-error" id="payError" hidden></p>
+        <button type="submit" class="btn btn-gold" id="paySubmit">Pay now</button>
+      </form>
+
+      <div class="pay-success" id="paySuccess" hidden>
+        <h3>Payment successful</h3>
+        <p id="paySuccessText"></p>
+        <button type="button" class="btn" id="payDone">Back to shop</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="qrcode.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js?v=23"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Live site: https://monikaspices.netlify.app
+
+How to put this site on Netlify (free)
+
+1. Unzip this folder.
+2. Open https://app.netlify.com/drop and sign in.
+3. Drag this whole folder onto the page (the folder that contains index.html).
+4. Netlify will publish the site and give you a link.
+
+No build step. No Next.js. This is a normal HTML/CSS/JS website.
